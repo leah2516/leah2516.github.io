@@ -1,0 +1,241 @@
+body{
+	background: url(../img/bannner/polo360.png) repeat-x;
+	/* height: 3000px; */
+}
+.w{
+	width: 940px;
+	margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+.header{
+	padding-top: 15px;
+	padding-left:15px;
+	height: 76px;
+    /* padding-bottom: 50px; */
+	padding-bottom: 60px;
+}
+.nav{
+	float: right;
+	padding-top: 30px;
+	/* padding-bottom: 50px; */
+}
+.nav li{
+	float: left;
+    padding-right: 10px;
+	padding-left: 10px;
+	border-left: dotted 1px black;  
+}
+.nav a{
+	text-decoration: none;
+	
+}
+.nav a:hover{
+	background: yellowgreen;
+}
+.banner{
+	height: 440px;
+	position: relative;
+}
+.pointer{
+	top: 402px;
+	/* background: mistyrose;
+	height: 15px;
+	width: 15px; */
+	position: absolute;
+	padding-left: 10px;
+} 
+.pointer button{
+	background: url(../img/bannner/bannner4.png) no-repeat;
+	height: 17px;
+	width: 17px;
+	border: none;
+}
+.pointer .b2{
+	background: url(../img/bannner/banner5.png);
+	height: 17px;
+	width: 17px;
+}
+.pointer button:hover{
+	background: url(../img/bannner/banner5.png);
+	
+}
+.content .c1, .content .c2, .content .c3{
+	width: 300px;
+	float: left;
+	
+}
+ .content .c2{
+	 margin: 0px 20px;
+ }
+.content h1{
+	text-align: center;
+	font:  italic 35px 华文彩云;
+	color: rosybrown;
+}
+.content h2{
+	padding-top: 10px;
+	font:  15px 华文行楷;
+	
+}
+.content .p1{
+	padding-top: 5px;
+	padding-bottom: 8px;
+	font-style: italic;
+	color: gold;
+	
+}
+.content .p2{
+	font: 14px/1.5 幼圆;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 120px;
+}
+.content .button{
+	text-decoration: none;
+	width: 172px;
+	height: 34px;
+	background: url(../img/content/btn1.png) no-repeat;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.content a{
+	text-decoration: none;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+
+.contact .t1, .contact .t2, .contact .t3{
+	float: left;
+	 width:300px;
+	
+}
+.contact h1{
+	border-bottom: dotted 1px black;
+	
+	padding-bottom: 6px;
+	font: 25px 华文彩云 ;
+	/* font-style: italic; */
+	
+}
+
+.contact .t1{
+	/* background: #9ACD32; */
+	width: 300px;
+	height: 200px;
+}
+.contact .t1 p{
+	margin-bottom: 8px;
+}
+.contact .h11{
+	padding-top: 24px;
+}
+
+
+.contact .t2{
+	margin: 0 20px;
+	/* background: #BC8F8F; */
+	width: 300px;
+	/* height: 200px; */
+}
+
+.contact  h1{
+	margin-bottom: 10px;
+	
+}
+.txt{
+	width: 300px;
+	height: 34px;
+	margin-bottom: 8px;
+	border: none;
+	background: url(../img/contact/框3.png) no-repeat;
+	padding: 0px 8px;
+	line-height: 34px;
+	
+}
+.tarea{
+	width: 300px;
+	height: 134px;
+	background: url(../img/contact/框2.png) no-repeat;
+	border: none;
+	overflow: auto;
+	resize: none;
+	padding: 5px 5px;
+	margin: 0px;
+}
+.btn{
+	background: url(../img/contact/框一.png) no-repeat;
+	width: 168px;
+	height: 35px;
+	text-align: left;
+	padding-left: 10px;
+	border: none ;
+	font: 15px/15px  georgia;
+	color: white;
+	padding-bottom: 10px;
+}
+.btn:hover{
+	color: #BC8F8F;
+}
+.contact .t3{
+		/* background: #BC8F8F; */
+	width: 300px;
+	/* height: 200px; */
+}
+
+.t3 img{
+	/* float: left; */
+	/* border-bottom: 1px dashed black; */
+}
+.t3 h2{ 
+	border-bottom: 1px dashed black; 
+}
+.t3 img{
+	float: left;
+	width: 61px;
+	height: 60px;
+	padding-right: 8px;
+}
+.t3 p{
+	height: 60px;
+	padding-top: 6px;
+	padding-bottom: 7px;
+	border-bottom: 1px dashed black;
+}
+.t3 .p1{
+	margin-bottom: 5px;
+}
+.footer {
+	background: #333333;
+	height: 173px;
+	border-top: 11px solid #4c4c4c ;
+	margin-top: 20px;
+}
+.footer .p4{
+	float: right;
+}
+.footer .p1{
+	/* float: left; */
+	color: #7d7d7d;
+	padding-top: 8px;
+}
+.footer a{
+	font: 11px georgia #7d7d7d;
+	color: #7d7d7d;
+	text-decoration: none;
+}
+.footer p{
+	padding-top: 6px;
+	
+	
+}
+.footer a:hover{
+	color: #FFD700;
+}
+
+
+
